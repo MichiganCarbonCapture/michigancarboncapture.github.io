@@ -7,13 +7,13 @@ body {
 section {
     max-width:750px;
     margin:auto;
-    padding:10px 5px;
+    padding:15px 5px;
 }
 
-nav {
+#nav {
     background-color: #a5c7fb;
 }
-nav img {
+#nav img {
     width:80px;
 }
 
@@ -46,11 +46,21 @@ h2 {
     align-items:center;
     justify-content:center;
     gap:15px;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
+}
+.flex img {
+    width:100%;
+    height:auto;
+    object-position:center;
+    border-radius:5px;
 }
 
 .dark {
     background-color:#a5c7fb;
+}
+
+.buttoncontainer{
+    flex-wrap:wrap;
 }
 
 button {
