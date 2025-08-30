@@ -9,21 +9,23 @@
 
     <body>
         <header>
-            <nav id="nav" class="flex">
-                <div><a href="index.html"><img src="assets/mcc-named-logo.png"></a></div>
-                <div><a href="#about">ABOUT</a></div>
-                <div><a href="#projects">PROJECTS</a></div>
-                <div><a href="#news">NEWS</a></div>
-                <div><a href="#contact">CONTACT</a></div>
+            <nav id="nav">
+                <a href="index.html"><img src="assets/mcc-named-logo.png"></a>
+                <div id="navlinks">
+                    <a href="#about">ABOUT</a>
+                    <a href="#projects">PROJECTS</a>
+                    <a href="#news">NEWS</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+                <button id="hamburger">+</button>
             </nav>
-            <img src="assets/EarthView.png" class="banner">
-            
+            <img src="assets/EarthView.png" class="banner">            
         </header>
         <main>
             <section id="about" class="">
                 <h2>About Us</h2>
                 <b>Michigan Carbon Capture is the University of Michigan's student organization dedicated to innovation and education in carbon capture technology.</b>
-                <p>As the student branch of the Global CO2 Initiative, we coordinate both research initiatives to develop novel carbon capture technology and educational initiatives to advance climate tech understanding in the Ann Arbor community. Together, we're building a sustainable future.</p>
+                <p>As the student branch of the <a href="https://www.globalco2initiative.org/">Global CO2 Initiative</a>, we coordinate both research initiatives to develop novel carbon capture technology and educational initiatives to advance climate tech understanding in the Ann Arbor community. Together, we're building a sustainable future.</p>
             </section>
 
             <div class="dark">
@@ -55,13 +57,13 @@
             <div class="dark">
             <section id="contact">
                 <h2>Contact Us</h2>
-                <div class="flex buttoncontainer">
-                    <button>info@michigancarboncapture.com</button>
-                    <button>Join our newsletter!</button>
+                <div class="flex wrap">
+                    <p>Email: lsimakas@umich.edu</p>
+                    <a href=""><button>Join our newsletter!</button></a>
                 </div>
             </section>
             </div>
-
+        <script src="script.js"></script>
         </main>
     </body>
     <footer>
