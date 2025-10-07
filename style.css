@@ -125,3 +125,8 @@ a:visited{
     justify-content:center;
     height: 25vh;
 }
+
+img {
+    display:block;
+    width:100%;
+}
